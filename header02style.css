@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+
+.topbar {
+    width: 100%;
+    text-align: right;
+    background-color: rgb(237, 238, 238);
+    height: 20px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.topbar select {
+    border: 0;
+    background-color: transparent;
+}
+
+.navbar img,
+div,
+i,
+a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar {
+    margin: 0px 50px 0px 50px;
+}
+
+.navbar .logo {
+    width: 200px;
+    height: 50px;
+    padding-right: 100px;
+}
+
+.navbar .searchform {
+    width: 530px;
+    margin-left: 100px;
+    margin-right: 350px;
+    padding: 0;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.searchform form input {
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 450px;
+}
+
+.searchform form label button {
+    border: 0;
+    padding: 0;
+    background-color: orange;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.w-100 {
+    width: 80px;
+}
