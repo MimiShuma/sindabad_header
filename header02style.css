@@ -4,6 +4,17 @@ body {
     margin: 0;
 }
 
+.hide {
+    display: none;
+}
+
+#container {
+    background-image: url(sindabadheader.png);
+    background-size: 1536px;
+    min-height: 166px;
+    background-repeat: no-repeat;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -11,17 +22,22 @@ a {
 }
 
 .topbar {
-    width: 100%;
+    width: 1536px;
     text-align: right;
-    background-color: rgb(237, 238, 238);
-    height: 20px;
-    padding-top: 5px;
+    /* border-bottom: 1px solid black; */
+    /* background-color: #f70e0e; */
+    /* background-color: #F1F1F1; */
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
     margin: 0;
 }
 
 .topbar select {
     border: 0;
     background-color: transparent;
+    margin-right: 15px;
+    font-size: 15px;
 }
 
 .navbar img,
@@ -33,19 +49,22 @@ a {
 }
 
 .navbar {
-    margin: 0px 50px 0px 50px;
+    border-bottom: 4px solid b#FCB800;
+    padding-bottom: 28px;
 }
 
 .navbar .logo {
-    width: 200px;
-    height: 50px;
-    padding-right: 100px;
+    width: 286px;
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 30px;
 }
 
 .navbar .searchform {
-    width: 530px;
-    margin-left: 100px;
-    margin-right: 350px;
+    width: 750px;
+    height: 46px;
+    margin-left: 86px;
+    margin-top: 29px;
     padding: 0;
     border: 1px solid rgb(221, 221, 221);
 }
@@ -56,16 +75,17 @@ a {
     margin: 0;
     padding: 0;
     height: 30px;
-    width: 450px;
+    width: 635px;
 }
 
 .searchform form label button {
     border: 0;
     padding: 0;
-    background-color: orange;
-    height: 30px;
-    width: 80px;
+    background-color: #FCB800;
+    height: 46px;
+    width: 115px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .w-100 {
